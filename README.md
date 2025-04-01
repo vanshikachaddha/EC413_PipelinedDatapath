@@ -2,7 +2,7 @@
 
 This project implements a 4-stage pipelined 32-bit datapath in Verilog for EC413: Computer Organization. The pipeline includes Instruction Fetch (IF), Instruction Decode (ID), Execute (EX), and Write Back (WB) stages, following a modular and hierarchical design.
 
-## 🚀 Features
+## Features
 
 - 4-stage pipelined datapath (S1–S4)
 - Parameterized 32-bit ALU with support for R-type and I-type instructions
@@ -12,7 +12,7 @@ This project implements a 4-stage pipelined 32-bit datapath in Verilog for EC413
 - Testbenches for ALU, registers, and full pipeline
 - Custom instruction format with simplified opcode decoding
 
-## 📁 Key Modules
+## Key Modules
 
 - `Pipeline.v` – Top-level datapath
 - `ALU.v` – n-bit arithmetic and logic unit
@@ -21,7 +21,7 @@ This project implements a 4-stage pipelined 32-bit datapath in Verilog for EC413
 - `MUX.v` – Multiplexer for operand selection
 - `ALU_tb.v`, `Register_tb.v`, `Pipeline_tb.v` – Testbenches
 
-## 🧪 Testing
+## Testing
 
 Includes waveforms and test cases for:
 - ALU operations: ADD, SUB, MOV, SLT, NAND, NOR, etc.
